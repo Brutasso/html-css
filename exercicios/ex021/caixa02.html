@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkslategray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: lightslategray;
+            margin: 10px;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        nav {
+            background-color: rgb(99, 99, 99);
+            text-align: center;
+            padding: 5px;
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.404);
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav > a:hover {
+            color: rgb(0, 112, 19);
+            text-decoration: underline;
+            background-color: lightgray;
+        }
+
+        main {
+            background-color: rgb(196, 196, 196);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.404);
+        }
+
+        article {
+            background-color: lightslategray;
+            padding: 5px;
+            border-radius: 10px 0px;
+        }
+
+        article > aside {
+            background-color: rgb(151, 151, 151);
+            padding-left: 5px;
+            width: 230px;
+            margin: 0px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+           
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+            display: flex;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum repellendus tempore rerum adipisci sunt illum quia. In, officiis harum. Debitis reprehenderit dolorem eos earum corrupti ducimus minus, ullam ab quis?</p>
+                <aside>
+                    Artigo escrito por José da Silva
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Bruno Tavares</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
